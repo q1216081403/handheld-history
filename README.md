@@ -152,3 +152,14 @@ python3 tests/e2e.py
 - 未使用任何需要付费或授权不明的第三方素材。
 
 **本项目未公开发布、未购买素材、未开通任何收费服务。** 如需发布或商业化，请另行确认。
+## 在线体验
+
+- 游玩地址：<https://q1216081403.github.io/handheld-history/>
+- 手机浏览器直接打开即可游玩，无需安装；建议「添加到主屏幕」以获得全屏体验
+- 仓库地址：<https://github.com/q1216081403/handheld-history>
+
+部署方式：`main` 分支保存源码，`gh-pages` 分支保存 `npm run build` 的产物（`base: './'` 相对路径以适配 `/仓库名/` 子目录），GitHub Pages 从该分支发布。更新源码后重新构建并推送 `gh-pages` 即可上线。
+
+## 安全提醒
+
+若你在提交记录、聊天或截图中出现过 Personal Access Token，请立即到 GitHub **Settings → Developer settings → Personal access tokens** 撤销该令牌并重新生成。本项目不需要任何密钥即可构建与部署。
