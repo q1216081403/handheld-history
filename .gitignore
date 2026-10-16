@@ -1,0 +1,21 @@
+# 依赖
+node_modules/
+
+# 构建产物
+dist/
+*.local
+
+# 工具缓存
+.vite/
+.cache/
+
+# 编辑器与系统
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# 环境变量（不要提交任何密钥）
+.env
+.env.*
+!.env.example
